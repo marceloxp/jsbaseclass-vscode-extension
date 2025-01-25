@@ -21,13 +21,6 @@ A Visual Studio Code extension that simplifies the creation of JavaScript classe
    - Search for **"JsBaseClass Extension"**.
    - Click **Install**.
 
-2. **Manual Installation**:
-   - Download the `.vsix` file from the [Releases page](https://github.com/marceloxp/jsbaseclass-vscode-extension/releases).
-   - Open VS Code.
-   - Go to the Extensions view (`Ctrl+Shift+X`).
-   - Click the `...` menu and select **"Install from VSIX"**.
-   - Choose the downloaded `.vsix` file.
-
 ---
 
 ## **Usage**
@@ -83,17 +76,6 @@ The generated template includes:
 
 ---
 
-## **Contributing**
-
-Contributions are welcome! If you'd like to improve this extension, follow these steps:
-
-1. Fork the repository: [marceloxp/jsbaseclass-vscode-extension](https://github.com/marceloxp/jsbaseclass-vscode-extension).
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and test them thoroughly.
-4. Submit a pull request with a detailed description of your changes.
-
----
-
 ## **License**
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
@@ -106,23 +88,4 @@ If you encounter any issues or have suggestions for improvement, please [open an
 
 ---
 
-## **Credits**
-
-Developed by [Your Name] with ❤️.  
-Inspired by the **JsBaseClass** library.
-
----
-
 Start building smarter and more efficient JavaScript applications with the **JsBaseClass VSCode Extension**! 🚀
-
----
-
-### **Screenshots (Optional)**
-
-If you want to add screenshots, you can include them like this:
-
-#### **Command Palette**
-![Command Palette](https://example.com/command-palette.png)
-
-#### **Generated Code**
-![Generated Code](https://example.com/generated-code.png)

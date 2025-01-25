@@ -1,21 +1,40 @@
 {
     "name": "jsbaseclass-vscode-extension",
-    "displayName": "jsbaseclass-vscode-extension",
-    "description": "",
+    "displayName": "JsBaseClass Extension",
+    "description": "A VS Code extension to quickly generate JavaScript classes extending JsBaseClass. Simplifies creating modular and reusable components with a customizable template.",
     "version": "0.0.1",
+    "publisher": "marceloxp",
     "engines": {
         "vscode": "^1.96.0"
     },
     "categories": [
+        "Snippets",
         "Other"
     ],
+    "keywords": [
+        "javascript",
+        "jsbaseclass",
+        "template",
+        "class generator",
+        "productivity"
+    ],
+    "icon": "images/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/marceloxp/jsbaseclass-vscode-extension"
+    },
+    "bugs": {
+        "url": "https://github.com/marceloxp/jsbaseclass-vscode-extension/issues"
+    },
+    "license": "MIT",
     "activationEvents": [],
     "main": "./extension.js",
     "contributes": {
         "commands": [
             {
                 "command": "extension.createJsBaseClass",
-                "title": "New JsBaseClass"
+                "title": "New JsBaseClass",
+                "category": "JsBaseClass"
             }
         ]
     },
